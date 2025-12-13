@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio - Muskan Bhatt</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="navbar">
+      <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+        <span>Muskan</span>
+      </div>
+      <div class="links">
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a>
+        </div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a>
+        </div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a
+            href="#highlights">Highlights</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#skills">Skills</a>
+        </div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a
+            href="#projects">Projects</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600"><a
+            href="#contact">Contact</a></div>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+    <div class="dropdown">
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <i class="fa-solid fa-xmark cancle" onclick="cancle()"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home">
+    <div class="main-container">
+      <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+        <img src="media/main.png" alt="heroimage">
+      </div>
+      <div class="content">
+        <h1 data-aos="fade-left" data-aos-duration="1500">
+          Hey I'm <span>Muskan</span>
+        </h1>
+        <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+          I'm a <span class="typewriter-text"></span><label>|</label>
+        </div>
+        <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="900">
+          passionate and skilled in Java, DSA, and Cybersecurity. I love solving problems,
+          building creative projects, and bringing ideas to life through code.
+        </p>
+        <div class="social-links" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+          <a href="https://github.com/Muskan-bhatt249"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/muskan-bhatt-2885622b6/"><i class="fa-brands fa-linkedin"></i></a>
+          <i class="fa-solid fa-moon" id="theme-toggle"></i>
+        </div>
+        <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1200">
+          <a href="#contact"><button>Let's Collaborate</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left" data-aos="fade-right" data-aos-duration="1500">
+          <img src="media/myimg.png" alt="Muskan">
+        </div>
+        <div class="right" data-aos="fade-left" data-aos-duration="1500">
+          <div class="topic">Muskan Bhatt</div>
+          <p>Dedicated and motivated B.Tech undergraduate with a strong foundation in Java and Data Structures &
+            Algorithms (DSA), seeking opportunities to apply my technical skills in real-world problem solving...
+          </p>
+          <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">
+            <button><a href="Resume.html" style="color: white;"> Resume </a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights Section -->
+  <section class="highlights" id="highlights">
+    <div class="content">
+      <div class="title" data-aos="fade-up" data-aos-duration="1500">
+        <span>Highlights</span>
+      </div>
+      <p class="subtitle" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        A quick glimpse of my journey — education, experience, and achievements.
+      </p>
+      <div class="highlight-grid">
+        <div class="highlight-card" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h3 data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">Education</h3>
+          <p>The academic roots behind my growth and future vision.</p>
+          <button><a href="education.html" style="color: white;"> VIEW </a></button>
+        </div>
+        <div class="highlight-card" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">
+          <i class="fa-solid fa-briefcase"></i>
+          <h3 data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">Experience</h3>
+          <p>Hands-on internships involving practical, real-world projects. </p>
+          <button><a href="experience.html" style="color: white;"> VIEW </a></button>
+        </div>
+        <div class="highlight-card" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+          <i class="fa-solid fa-certificate"></i>
+          <h3 data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">Certifications</h3>
+          <p>Completed certifications in DSA, Web Dev, Cybersecurity, and more.</p>
+          <button><a href="certification.html" style="color: white;"> VIEW </a></button>
+        </div>
+        <div class="highlight-card" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="500">
+          <i class="fa-solid fa-trophy"></i>
+          <h3 data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">Achievements</h3>
+          <p>Hackathon participation, top performer in coding challenges, etc.</p>
+          <button><a href="achievements.html" style="color: white;"> VIEW </a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>My Skills</span></div>
+      <div class="skills-grid">
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="100">
+          <img src="media/java.png" alt="Java">
+          <p>Java</p>
+        </div>
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="200">
+          <img src="media/html.png" alt="HTML">
+          <p>HTML</p>
+        </div>
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="300">
+          <img src="media/css.png" alt="CSS">
+          <p>CSS</p>
+        </div>
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="400">
+          <img src="media/javascript.png" alt="JavaScript">
+          <p>JS</p>
+        </div>
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="500">
+          <img src="media/wordpress.png" alt="WordPress">
+          <p>WordPress</p>
+        </div>
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="600">
+          <img src="media/python.png" alt="Python">
+          <p>Python</p>
+        </div>
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="700">
+          <img src="media/icons8-sql-100 (1).png" alt="SQL"> <!-- Placeholder -->
+          <p>SQL</p>
+        </div>
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="800">
+          <img src="media/icons8-canva-100.png" alt="Canva"> <!-- Placeholder -->
+          <p>Canva</p>
+        </div>
+
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="1000">
+          <img src="media/icons8-github-100.png" alt="GitHub"> <!-- Placeholder -->
+          <p>GitHub</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="content">
+      <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>My Projects</span></div>
+      <div class="boxes">
+        <div class="box" data-aos="fade-up" data-aos-duration="1500">
+          <img src="media/eviscan.jpeg" alt="EVI Scan"> <!-- Placeholder -->
+          <div class="topic">EVI Scan</div>
+          <p>AI-powered UFDR Analysis Tool for cybersecurity forensics. Automates evidence analysis and reporting.
+          </p>
+          <a href="#" class="project-btn">View Project</a>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+          <img src="media/project1-cattleAI.jpg">
+          <div class="topic">Cattle AI</div>
+          <p>Identifies cattle breeds from images, offering marketplace features and subsidy integration for
+            farmers.
+          </p>
+          <a href="#" class="project-btn">View Project</a>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+          <img src="media/project2-arthub.png">
+          <div class="topic">Art Hub</div>
+          <p>Drawing inspiration platform providing curated ideas and resources for artists of all levels.</p>
+          <a href="#" class="project-btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>Contact Me</span></div>
+      <form class="contact-form" data-aos="fade-up" data-aos-duration="1500" name="contact" method="POST"
+        data-netlify="true">
+        <input type="text" placeholder="Your Name..." required>
+        <input type="email" placeholder="YourEmail@gmail.com" required>
+        <textarea placeholder="Your Message..." required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="text"><span>Created By @Muskan Bhatt</span></div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init({ offset: 0 });</script>
+  <script src="script.js"></script>
+</body>
+
+</html>
