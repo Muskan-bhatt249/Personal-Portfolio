@@ -1106,3 +1106,18 @@ footer .text span {
     font-size: 2rem;
   }
 }
+
+.tech-stack {
+  margin-top: 10px;
+}
+
+.tech-stack span {
+  display: inline-block;
+  background: #1e1e1e;
+  color: #ae00ff;
+  padding: 5px 10px;
+  margin: 4px;
+  border-radius: 20px;
+  font-size: 12px;
+  border: 1px solid #c300ff;
+}
