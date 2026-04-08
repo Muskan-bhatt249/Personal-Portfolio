@@ -5,17 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Experience - Muskan Bhatt</title>
+
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
-  <div id="progress-container">
-    <div id="progress-bar"></div>
-  </div>
-  <button id="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
 
+  <!-- Navbar -->
   <nav>
     <div class="navbar">
       <div class="logo"><span>Muskan</span></div>
@@ -25,84 +23,174 @@
         <a href="index.html#skills">Skills</a>
         <a href="index.html#projects">Projects</a>
         <a href="index.html#contact">Contact</a>
-        <i class="fa-solid fa-moon" id="theme-toggle"></i>
-      </div>
-      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
-    </div>
-    <div class="dropdown">
-      <div class="links">
-        <a href="index.html#home">Home</a>
-        <a href="index.html#about">About</a>
-        <a href="index.html#skills">Skills</a>
-        <a href="index.html#projects">Projects</a>
-        <a href="index.html#contact">Contact</a>
-        <i class="fa-solid fa-xmark cancle" onclick="cancle()"></i>
       </div>
     </div>
   </nav>
 
-
-  <section class="projects">
+  <!-- Experience Section -->
+  <section class="experience">
     <div class="content">
-      <div class="title" data-aos="fade-up"><span>Professional Experience</span></div>
+      <br><br>
 
-      <div class="experience-grid">
+      <div class="title" data-aos="fade-up">
+        <span>Professional Experience</span>
+      </div>
 
-        <div class="exp-card" data-aos="zoom-in">
-          <i class="fa-solid fa-keyboard exp-icon"></i>
-          <h3>Content Publisher - Practice Buzz</h3>
-          <p class="date">Nov 2024 - Jan 2025</p>
-          <p>Managed publishing and formatting of articles on a customized WordPress theme. Ensured smooth backend
-            functionality by maintaining plugins and resolving technical issues.</p>
-          <div class="tags">
-            <span>WordPress</span><span>Backend</span><span>Management</span>
+      <p class="subtitle" data-aos="fade-up">
+        My journey through internships, open-source contributions, and real-world projects.
+      </p>
+
+      <div class="timeline">
+
+        <!-- EXPERIENCE 1 -->
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="exp-card">
+
+            <h3>
+              Java Development Intern
+              <span class="company">@ Infosys Springboard</span>
+              <span class="current-badge">Current</span>
+            </h3>
+
+            <p class="date">Jan 2026 - Present</p>
+
+            <ul>
+              <li>Developing a smart home energy management system to optimize power usage.</li>
+              <li>Collaborating with team members on backend logic and system design.</li>
+              <li>Testing, debugging, and improving application performance.</li>
+            </ul>
+
+            <div class="tags">
+              <span>Java</span>
+              <span>Spring Boot</span>
+              <span>MySQL</span>
+              <span>Maven</span>
+            </div>
+
           </div>
         </div>
 
-        <div class="exp-card" data-aos="zoom-in" data-aos-delay="200">
-          <i class="fa-solid fa-code-branch exp-icon"></i>
-          <h3>GirlScript Summer of Code - Extended</h3>
-          <p class="date">Oct 2024 - Nov 2024</p>
-          <p>Contributor. Secured 249 AIR. Contributed to 9+ open source projects with 11+ PRs. Expanded knowledge in
-            web development and open source.</p>
-          <div class="tags">
-            <span>Open Source</span><span>GitHub</span><span>Web Dev</span>
+        <!-- EXPERIENCE 2 -->
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="exp-card">
+
+            <h3>
+              Content Publisher
+              <span class="company">@ Practice Buzz</span>
+            </h3>
+
+            <p class="date">Nov 2024 - Jan 2025</p>
+
+            <ul>
+              <li>Published and formatted articles on a custom WordPress platform.</li>
+              <li>Maintained plugins and resolved backend issues.</li>
+              <li>Improved website performance and content flow.</li>
+            </ul>
+
+            <div class="tags">
+              <span>WordPress</span>
+              <span>Backend</span>
+              <span>Management</span>
+            </div>
+
           </div>
         </div>
 
-        <div class="exp-card" data-aos="zoom-in" data-aos-delay="400">
-          <i class="fa-solid fa-newspaper exp-icon"></i>
-          <h3>Content Writer - Matlabi News</h3>
-          <p class="date">April 2024 - Oct 2024</p>
-          <p>Managed the brand's WordPress website. Created and published SEO-friendly content to drive traffic and
-            engagement.</p>
-          <div class="tags">
-            <span>WordPress</span><span>SEO</span><span>Content Creation</span>
+        <!-- EXPERIENCE 3 -->
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="exp-card">
+
+            <h3>
+              Open Source Contributor
+              <span class="company">@ GirlScript Summer of Code</span>
+            </h3>
+
+            <p class="date">Oct 2024 - Nov 2024</p>
+
+            <ul>
+              <li>Ranked 249 AIR with contributions across multiple projects.</li>
+              <li>Worked on 9+ projects and created 11+ pull requests.</li>
+              <li>Improved skills in Git, collaboration, and web development.</li>
+            </ul>
+
+            <div class="tags">
+              <span>Open Source</span>
+              <span>GitHub</span>
+              <span>Web Development</span>
+            </div>
+
           </div>
         </div>
 
-        <div class="exp-card" data-aos="zoom-in" data-aos-delay="600">
-          <i class="fa-solid fa-pen-fancy exp-icon"></i>
-          <h3>Technical Content Writer - Dew</h3>
-          <p class="date">March 2024 - April 2024</p>
-          <p>Wrote technical content for clients including GeeksforGeeks, US Beam, and Bajaj Finance. Specialized in
-            SEO-friendly articles and software guides.</p>
-          <div class="tags">
-            <span>Technical Writing</span><span>SEO</span><span>Research</span>
+        <!-- EXPERIENCE 4 -->
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="exp-card">
+
+            <h3>
+              Content Writer
+              <span class="company">@ Matlabi News</span>
+            </h3>
+
+            <p class="date">April 2024 - Oct 2024</p>
+
+            <ul>
+              <li>Created SEO-optimized articles to improve traffic and engagement.</li>
+              <li>Managed WordPress backend and publishing workflow.</li>
+              <li>Enhanced content readability and structure.</li>
+            </ul>
+
+            <div class="tags">
+              <span>WordPress</span>
+              <span>SEO</span>
+              <span>Content Creation</span>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- EXPERIENCE 5 -->
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="exp-card">
+
+            <h3>
+              Technical Content Writer
+              <span class="company">@ Dew</span>
+            </h3>
+
+            <p class="date">March 2024 - April 2024</p>
+
+            <ul>
+              <li>Wrote technical blogs for clients including GeeksforGeeks and Bajaj Finance.</li>
+              <li>Focused on SEO and structured content writing.</li>
+              <li>Delivered high-quality research-based articles.</li>
+            </ul>
+
+            <div class="tags">
+              <span>Technical Writing</span>
+              <span>SEO</span>
+              <span>Research</span>
+            </div>
+
           </div>
         </div>
 
       </div>
+
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     <div class="text"><span>Created By @Muskan Bhatt</span></div>
   </footer>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>AOS.init();</script>
-  <script src="script.js"></script>
 
 </body>
 

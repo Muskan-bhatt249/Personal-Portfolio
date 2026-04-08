@@ -1121,3 +1121,101 @@ footer .text span {
   font-size: 12px;
   border: 1px solid #c300ff;
 }
+.exp-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.exp-card {
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #222;
+  transition: 0.3s;
+}
+
+.exp-card:hover {
+  transform: translateY(-4px);
+  border-color: #00ffcc;
+}
+
+.exp-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.company {
+  color: #00ffcc;
+  font-size: 14px;
+}
+
+.current {
+  background: #00ffcc;
+  color: black;
+  padding: 2px 8px;
+  font-size: 10px;
+  border-radius: 10px;
+}
+
+.date {
+  font-size: 12px;
+  color: gray;
+  margin: 5px 0;
+}
+
+.desc {
+  margin: 10px 0;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.tags span {
+  display: inline-block;
+  background: #1e1e1e;
+  color: #00ffcc;
+  padding: 4px 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 15px;
+  font-size: 11px;
+}
+
+/* OTHER EXPERIENCE */
+.other-title {
+  margin-top: 30px;
+  color: #aaa;
+  font-size: 16px;
+}
+
+.other-exp {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.other-card {
+  background: #0f0f0f;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #222;
+}
+
+.other-card h4 {
+  font-size: 14px;
+  color: #00ffcc;
+}
+
+.other-card p {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ccc;
+}
